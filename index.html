@@ -16,6 +16,9 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+
 
 </head>
 
@@ -30,7 +33,7 @@
                     डायलिसिस</span> और <span class="text-red-800 font-bold">किडनी ट्रांसप्लांट</span> ही अंतिम
                 विकल्प
 
-                बचा है <span class="text-red-800 font-bold">?</span> <br> किडनी पैसेंट के लिए।</h2>
+                बचा है। <br> किडनी पैसेंट के लिए <span class="text-red-800 font-bold">?</span></h2>
 
             <p class="text-xl mt-9 text-black-600"> <span class="text-green-900 text-3xl">BK Arogyam
                 </span>आयुर्वेदिक हॉस्पिटल किडनी पेशेंट्स के लिए बना वरदान :
@@ -63,35 +66,65 @@
         </div>
     </section>
 
+    <section class="flex">
 
-    <section class="flex items-center justify-center bg-green-100 ">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper flex ">
+                <div class="swiper-slide ">
+                    <div class="flex  justify-center ">
+                        <iframe class="w-[300px] h-[300px] border-4 border-black-800"
+                            src="https://www.youtube.com/embed/sqhhpfzdpCk?si=JuFzVz1OMIQlWcD5"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
 
-        <div class="flex flex-col md:flex-row gap-10 mt-20 mb-5">
-
-            <div class="border-4 border-black-600 ">
-                <iframe class="w-[300px]  h-[300px] md:"
-                    src="https://www.youtube.com/embed/V25rYufbA4c?si=TUqY-XnRo3XQO3Wf" title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="flex  justify-center">
+                        <iframe class="w-[300px] h-[300px] border-4 border-black-800"
+                            src="https://www.youtube.com/embed/sA7rV1uaHBw?si=1CHL0hLW4GPZMxKF"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="flex justify-center">
+                        <iframe class="w-[300px] h-[300px] border-4 border-black-800"
+                            src="https://www.youtube.com/embed/V25rYufbA4c?si=SYByiDw51iOC7YGy"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="flex justify-center">
+                        <iframe class="w-[300px] h-[300px] border-4 border-black-800"
+                            src="https://www.youtube.com/embed/Cas4_sJwDrs?si=tiI_JqCWB0LiggoA"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="flex justify-center">
+                        <iframe class="w-[300px] h-[300px] border-4 border-black-800"
+                            src="https://www.youtube.com/embed/wAJ3csDqjPU?si=zfXdfVZjOyJHUBHl"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
 
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
 
-            <div class="border-4 border-black-600 ">
-                <iframe class="w-[300px]  h-[300px]" src="https://www.youtube.com/embed/sqhhpfzdpCk?si=JISOiJpQFvXCa48Y"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
 
-            </div>
 
-            <div class="border-4 border-black-600 ">
-                <iframe class="w-[300px]  h-[300px]" src="https://www.youtube.com/embed/Cas4_sJwDrs?si=NNIVAp9gEQdPUFxk"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-
-            </div>
     </section>
 
 
@@ -122,7 +155,7 @@
                     <div class="flex flex-col gap-5">
 
                         <div class="form-group mb-3 ">
-                            <label for="">Name</label>
+                            <label for="">Name <span class="text-red-900">*</span></label>
                             <input type="text" id="name" class="form-control" placeholder="Name" required
                                 autocomplete="off">
                         </div>
@@ -137,7 +170,7 @@
                     <div class="flex flex-col gap-5 ">
 
                         <div class="form-group mb-3 ">
-                            <label for="">Mobile No.</label>
+                            <label for="">Mobile No.  <span class="text-red-900">*</span></label>
                             <input type="text" id="phone" class="form-control" placeholder="Mobile No." required>
                         </div>
 
@@ -160,13 +193,6 @@
             </form>
 
 
-
-
-
-
-
-
-
         </div>
 
     </section>
@@ -181,23 +207,23 @@
             if (name === "") {
                 alert('please fill this section name');
             }
-            else if (email == "") {
-                alert('please fill this section name');
-            }
+            // else if (email == "") {
+            //     alert('please fill this section name');
+            // }
 
             else if (phone == "") {
                 alert('please fill this section name');
             }
-            else if (address == "") {
-                alert('please fill this section name');
-            }
+            // else if (address == "") {
+            //     alert('please fill this section name');
+            // }
             else {
 
                 var url = "https://wa.me/918756816605?text="
-                    + "Name :* " + name + "%0a"
-                    + "Email :* " + email + "%0a"
-                    + "Phone :* " + phone + "%0a"
-                    + "Address :* " + address;
+                    + "Name : " + name + "%0a"
+                    + "Email : " + email + "%0a"
+                    + "Phone : " + phone + "%0a"
+                    + "Address : " + address;
 
                 window.open(url, '_blank').focus();
 
@@ -208,12 +234,10 @@
 
 
 
-
-
     <footer class="flex gap-5 bg-green-700 py-10 mt-10 justify-between  items-center flex-col md:flex-row mx-0">
 
-        <div class=" flex  flex-col  md:flex-row gap-5 pl-5">
-            <h2 class="text-2xl font-medium text-white">Follow Me : </h2>
+        <div class=" flex  flex-col  md:flex-row gap-5 ml-2">
+            <h2 class="text-2xl font-medium text-white  items-center text-center justify-center">Follow Me : </h2>
 
             <div class=" flex gap-4">
 
@@ -230,25 +254,36 @@
 
         </div>
 
-        <div class="text-lg"> <a class="text-2xl" href="https://www.bkkidneycare.com/">www.bkkidneycare.com</a></div>
+        <div class="text-lg"> <a class="text-2xl text-white"
+                href="https://www.bkkidneycare.com/">www.bkkidneycare.com</a></div>
 
 
 
         <div class="col-sm-6  col-md-4 mx-0">
             <div class="widget ">
-                <img class="mb-4 w-[40vw] max-w-sm mx-auto " height="80"
-                    alt="bk kidney care logo" src="images/bk arogyam.png">
+
+                <img class=" w-[40vw] max-w-md  mx-auto mb-4" height="80" alt="bk kidney care logo"
+                    src="images/bk arogyam.png">
+
+
 
                 <p class="text-xl text-white ">Manduvadih Lahartara Road, Shivdaspur,Near Hori Lal Park, Varanasi pin
                     221103</p>
-                <ul class="list-border mt-4  items-center text-center justify-center space-y-3">
-                   
-                        <li class="flex p-auto gap-2"> <img width="24" height="24" src="https://img.icons8.com/ios-filled/50/apple-phone.png" alt="apple-phone"/><a class=" text-white text-xl " href="tel: 8081222333"> +91 8081222333</a> 
-                        </li>
-                 
-                    <li class=" flex  p-auto gap-2"> <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/new-post.png" alt="new-post" /> <a  class="text-white text-xl" href="mailto:doctor@bkarogyam.com">doctor@bkarogyam.com</a>
+                <ul class="list-border mt-4  items-center text-center justify-center space-y-3 mb-4">
+
+                    <li class="flex p-auto gap-2"><img width="25" height="25"
+                            src="https://img.icons8.com/ios-filled/50/FFFFFF/phone.png" alt="phone" /><a
+                            class=" text-white text-xl " href="tel: 8081222333"> +91 8081222333</a>
+                    </li>
+
+                    <li class=" flex  p-auto gap-2"> <img width="24" height="24"
+                            src="https://img.icons8.com/material-sharp/24/FFFFFF/mail.png" alt="mail" /> <a
+                            class="text-white text-xl" href="mailto:doctor@bkarogyam.com">doctor@bkarogyam.com</a>
                     </li>
                 </ul>
+
+
+
 
             </div>
         </div>
@@ -265,6 +300,38 @@
                 Research Pvt. Ltd.
                 All Rights Reserved</p>
         </div>
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                spaceBetween: 30,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
+
+
 
 
 </body>
